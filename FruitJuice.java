@@ -9,7 +9,9 @@ public class FruitJuice extends Drink implements IMixable{
     public double calculatePrice(){
         return price = price - (price * discountPercent / 100);
     }
-    @Override void mix(){
+    @Override 
+    public void mix(){
         System.out.println("Dang ep trai cay tuoi...");
     }
 }
+
